@@ -1,0 +1,842 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Codered</title>
+	<meta name="description" content="">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<!-- <link rel="shortcut icon" href="img/fav.png" type="image/x-icon"> -->
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<header>
+		<div class="large-container">
+			<div class="burger-btn">
+				<span></span>
+			</div>
+			<a href="#" class="logo"></a>
+			<nav class="header-menu">
+				<ul>
+					<li class="with-dropdown">
+						<a href="#">Мужчинам</a>
+						<div class="dropdown">
+							<div class="left-menu">
+								<a href="#">Верхняя одежда</a>
+								<ul class="submenu">
+									<li>
+										<a href="#">Плащи</a>
+									</li>
+									<li>
+										<a href="#">Жилеты</a>
+									</li>
+									<li>
+										<a href="#">Зимние куртки</a>
+									</li>
+									<li>
+										<a href="#">Куртки</a>
+									</li>
+									<li>
+										<a href="#">Ветровки</a>
+									</li>
+								</ul>
+								<ul class="submenu">
+									<li>
+										<a href="#">Олимпийки</a>
+									</li>
+									<li>
+										<a href="#">Зимние анораки</a>
+									</li>
+									<li>
+										<a href="#">Анораки</a>
+									</li>
+									<li>
+										<a href="#">Пальто</a>
+									</li>
+								</ul>
+							</div>
+							<ul class="right-menu">
+								<li>
+									<a href="#">Свитшоты, толстовки</a>
+								</li>
+								<li>
+									<a href="#">Поло, футболки</a>
+								</li>
+								<li>
+									<a href="#">Рубашки</a>
+								</li>
+								<li>
+									<a href="#">Штаны, шорты</a>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li class="with-dropdown">
+						<a href="#">Женщинам</a>
+						<div class="dropdown">
+							<div class="left-menu">
+								<a href="#">Верхняя одежда</a>
+								<ul class="submenu">
+									<li>
+										<a href="#">Плащи</a>
+									</li>
+									<li>
+										<a href="#">Жилеты</a>
+									</li>
+									<li>
+										<a href="#">Зимние куртки</a>
+									</li>
+									<li>
+										<a href="#">Куртки</a>
+									</li>
+									<li>
+										<a href="#">Ветровки</a>
+									</li>
+								</ul>
+								<ul class="submenu">
+									<li>
+										<a href="#">Олимпийки</a>
+									</li>
+									<li>
+										<a href="#">Зимние анораки</a>
+									</li>
+									<li>
+										<a href="#">Анораки</a>
+									</li>
+									<li>
+										<a href="#">Пальто</a>
+									</li>
+								</ul>
+							</div>
+							<ul class="right-menu">
+								<li>
+									<a href="#">Свитшоты, толстовки</a>
+								</li>
+								<li>
+									<a href="#">Поло, футболки</a>
+								</li>
+								<li>
+									<a href="#">Рубашки</a>
+								</li>
+								<li>
+									<a href="#">Штаны, шорты</a>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<a href="#">Аксессуары</a>
+					</li>
+					<li>
+						<a href="#" class="highlighted">Sale</a>
+					</li>
+					<li>
+						<a href="#">О нас</a>
+					</li>
+				</ul>
+			</nav>
+			<div class="header-user-menu">
+				<form class="search">
+					<input class="search-input" type="text" placeholder="Найти…">
+					<button class="search-btn" type="submit"></button>
+				</form>
+				<div class="cart">
+					<div class="cart-informer">
+						<div class="cart-counter">3</div>
+					</div>
+					<div class="dropdown">
+						<div class="title">
+							<span>Корзина</span>
+							<div class="cart-counter">3</div>
+						</div>
+						<ul class="products-list">
+							<li>
+								<div class="close"></div>
+								<a href="#" class="thumbnail" style="background-image: url(img/main/cart1.jpg);"></a>
+								<div class="content">
+									<div class="collection">CODERED</div>
+									<a href="#" class="product-name">Плащ 4coat Серый<br> Бежевый</a>
+								</div>
+								<div class="price">8 000 <span class="currency">₽</span></div>
+							</li>
+							<li>
+								<div class="close"></div>
+								<a href="#" class="thumbnail" style="background-image: url(img/main/cart1.jpg);"></a>
+								<div class="content">
+									<div class="collection">CODERED</div>
+									<a href="#" class="product-name">Плащ 4coat Серый<br> Бежевый</a>
+								</div>
+								<div class="price">8 000 <span class="currency">₽</span></div>
+							</li>
+						</ul>
+						<div class="total">
+							<span>Итоговая сумма:</span>
+							<span class="amount">16 000 ₽</span>
+						</div>
+					</div>
+				</div>
+				<div class="user-account">
+					<div class="user-btn"></div>
+					<div class="dropdown dropdown-login">
+						<div class="login">
+							<div class="login-btn underlined-btn red">Войти в кабинет</div>
+						</div>
+						<div class="signup">
+							<div class="signup-btn underlined-btn view-more">Зарегистрироваться</div>
+							<div class="signup-popup">
+								
+							</div>
+						</div>
+					</div>
+					<div class="dropdown dropdown-private-office">
+						<a href="#" class="private-office">
+							Личный кабинет
+						</a>
+						<div class="logout">Выйти</div>
+					</div>
+				</div>
+			</div>
+			<form class="search mobile">
+				<input class="search-input" type="text" placeholder="Найти…">
+				<button class="search-btn" type="submit"></button>
+			</form>
+			<div class="social mobile">
+				<a href="#">
+					<img src="img/icons/vk.svg" alt="">
+				</a>
+				<a href="#">
+					<img src="img/icons/inst.svg" alt="">
+				</a>
+				<a href="#">
+					<img src="img/icons/fb.svg" alt="">
+				</a>
+			</div>
+		</div>
+	</header>
+	<main>
+		<div class="login-popup popup">
+			<div class="close"></div>
+			<div class="title">Вход</div>
+			<form class="login-form">
+				<label>
+					<p>E-mail<span class="required">*</span>:</p>
+					<input class="text-field" type="email" required>
+				</label>
+				<label class="label-password">
+					<p>Пароль<span class="required">*</span>:</p>
+					<input class="text-field" type="password" required>
+					<img class="show-password" src="img/icons/eye.svg" alt="">
+				</label>
+				<div class="btn-bottom">
+					<button class="underlined-btn red" type="submit">Войти в кабинет</button>
+					<a href="#" class="forgot-password">Забыли пароль?</a>
+				</div>
+			</form>
+		</div>
+		<div class="signup-popup popup">
+			<div class="close"></div>
+			<div class="title">Регистрация</div>
+			<form class="signup-form">
+				<label>
+					<p>Имя<span class="required">*</span>:</p>
+					<input class="text-field" type="text" required>
+				</label>
+				<label>
+					<p>E-mail<span class="required">*</span>:</p>
+					<input class="text-field" type="email" required>
+				</label>
+				<label class="label-password">
+					<p>Пароль<span class="required">*</span>:</p>
+					<input class="text-field" type="password" required>
+					<img class="show-password" src="img/icons/eye.svg" alt="">
+				</label>
+				<div class="btn-bottom">
+					<button class="underlined-btn red" type="submit">Зарегистрироваться</button>
+					<label class="privacy-policy">
+						<input type="checkbox" required>
+						<span class="checkbox-el"></span>
+						<p>
+							При регистрации вы подтверждаете политику<br>
+							обработки данных
+						</p>
+					</label>
+				</div>
+			</form>
+		</div>
+		<nav class="breadcrumbs">
+			<ul>
+				<li>
+					<a href="#">Главная</a>
+				</li>
+				<li>
+					<a href="#">Контакты</a>
+				</li>
+			</ul>
+		</nav>
+		<section id="contacts">
+			<div class="large-container">
+				<div id="contacts-map"></div>
+				<div id="map-popup">
+					<div class="metro">Маяковская</div>
+					<div class="address">1-я Тверская-Ямская, 13</div>
+				</div>
+				<div class="contacts-wrap">
+					<table class="contacts-list">
+						<tbody>
+							<tr>
+								<td>
+									<div class="title">
+										<h3>
+											Интернет<br>
+											магазин
+										</h3>
+									</div>
+								</td>
+								<td>
+									<div class="contacts">
+										<a href="mailto:coderedorder@gmail.com" class="email">coderedorder@gmail.com</a>
+										<div class="schedule">
+											Пн-Пт: 11<span>00</span> - 21<span>00</span>
+										</div>
+									</div>
+								</td>
+								<td>
+									<a href="tel:+79672883944" class="phone">+7 (967) 288 39 44</a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<div class="title">
+										<h3>
+											Магазин в<br>
+											Москве
+										</h3>
+									</div>
+								</td>
+								<td>
+									<div class="contacts">
+										<div class="metro">Маяковская</div>
+										<div class="address">1-я Тверская-Ямская, 13</div>
+									</div>
+								</td>
+								<td>
+									<a href="tel:+79672883944" class="phone">+7 (967) 288 39 44</a>
+									<div class="schedule">
+										Ежедневно: 11<span>00</span> - 21<span>00</span>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<div class="title">
+										<h3>
+											Стоковый<br>
+											магазин в Москве
+										</h3>
+									</div>
+								</td>
+								<td>
+									<div class="contacts">
+										<div class="metro">Бутырская</div>
+										<div class="address">Огородный проезд, 10</div>
+									</div>
+								</td>
+								<td>
+									<a href="tel:+79672883944" class="phone">+7 (909) 670 20 02</a>
+									<div class="schedule">
+										Ежедневно: 11<span>00</span> - 21<span>00</span>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<div class="title">
+										<h3>
+											Магазин в<br>
+											Cанкт-Петербурге
+										</h3>
+									</div>
+								</td>
+								<td>
+									<div class="contacts">
+										<div class="metro">Маяковская</div>
+										<div class="address">Стремянная, 3</div>
+									</div>
+								</td>
+								<td>
+									<a href="tel:+79672883944" class="phone">+7 (812) 983 58 00</a>
+									<div class="schedule">
+										Ежедневно: 11<span>00</span> - 21<span>00</span>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<div class="title">
+										<h3>
+											Магазин в<br>
+											Екатеринбурге
+										</h3>
+									</div>
+								</td>
+								<td>
+									<div class="contacts">
+										<div class="metro">Площадь 1905 года</div>
+										<div class="address">Толмачева, 22</div>
+									</div>
+								</td>
+								<td>
+									<a href="tel:+79672883944" class="phone">+7 (912) 038 43 29</a>
+									<div class="schedule">
+										Ежедневно: 11<span>00</span> - 21<span>00</span>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<div class="title">
+										<h3>
+											Оптовые закупки,<br>
+											дистрибьюторам:	
+										</h3>
+									</div>
+								</td>
+								<td>
+									<div class="contacts">
+										<a href="mailto:optcodered@gmail.com" class="email">optcodered@gmail.com</a>
+										<div class="schedule">
+											Пн-Пт: 11<span>00</span> - 21<span>00</span>
+										</div>
+									</div>
+								</td>
+								<td>
+									<a href="tel:+79672883944" class="phone">+7 (967) 288 39 44</a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<div class="title">
+										<h3>
+											Cотрудничество,<br>
+											PR:	
+										</h3>
+									</div>
+								</td>
+								<td>
+									<div class="contacts">
+										<a href="mailto:optcodered@gmail.com" class="email">optcodered@gmail.com</a>
+									</div>
+								</td>
+								<td>
+									
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</section>
+		<div class="overlay"></div>
+	</main>
+	<footer>
+		<div class="large-container">
+			<div class="col">
+				<a href="#" class="logo">
+					<img src="img/logo.svg" alt="">
+				</a>
+				<p class="summary">
+					Мы - культовая отечественная марка одежды,
+					поддерживающая граффити-сообщество и
+					активную творческую молодежь. Все наши вещи
+					произведены ограниченным тиражом
+					исключительно в России.
+				</p>
+				<a href="mailto:coderedorder@gmail.com" class="email">coderedorder@gmail.com</a>
+				<div class="social">
+					<a href="#">
+						<img src="img/icons/vk.svg" alt="">
+					</a>
+					<a href="#">
+						<img src="img/icons/inst.svg" alt="">
+					</a>
+					<a href="#">
+						<img src="img/icons/fb.svg" alt="">
+					</a>
+				</div>
+			</div>
+			<div class="col">
+				<div class="title">
+					Категории
+				</div>
+				<ul class="menu">
+					<li>
+						<a href="#">Мужчинам</a>
+					</li>
+					<li>
+						<a href="#">Женщинам</a>
+					</li>
+					<li>
+						<a href="#">Шапки</a>
+					</li>
+					<li>
+						<a href="#">Панамы</a>
+					</li>
+					<li>
+						<a href="#">Кепки</a>
+					</li>
+					<li>
+						<a href="#">Рюкзаки</a>
+					</li>
+				</ul>
+				<ul class="menu">
+					<li>
+						<a href="#">Сумки</a>
+					</li>
+					<li>
+						<a href="#">Обувь</a>
+					</li>
+					<li>
+						<a href="#">Аксессуары</a>
+					</li>
+					<li>
+						<a href="#">Коллаборации</a>
+					</li>
+					<li>
+						<a href="#">Со скидкой</a>
+					</li>
+					<li>
+						<a href="#">Архив</a>
+					</li>
+				</ul>
+			</div>
+			<div class="col sitemap">
+				<div class="title">
+					Навигация
+				</div>
+				<ul class="menu">
+					<li>
+						<a href="#">Каталог</a>
+					</li>
+					<li>
+						<a href="#">Доставка</a>
+					</li>
+					<li>
+						<a href="#">Оплата</a>
+					</li>
+					<li>
+						<a href="#">Дилеры</a>
+					</li>
+					<li>
+						<a href="#">Контакты</a>
+					</li>
+					<li>
+						<a href="#">Где мой заказ?</a>
+					</li>
+				</ul>
+			</div>
+			<div class="col location active-mobile">
+				<div class="title">
+					Наши магазины
+				</div>
+				<div class="location-col">
+					<ul>
+						<li class="city">Москва</li>
+						<li class="metro">Маяковская</li>
+						<li class="address">1-я Тверская-Ямская, 13</li>
+					</ul>
+					<ul>
+						<li class="city">Екатеринбург</li>
+						<li class="metro">Площадь 1905 года</li>
+						<li class="address">Толмачева, 22</li>
+					</ul>
+				</div>
+				<div class="location-col">
+					<ul>
+						<li class="city">Москва ( стоковый )</li>
+						<li class="metro">Бутырская</li>
+						<li class="address">Огородный проезд, 10</li>
+					</ul>
+					
+					<ul>
+						<li class="city">Москва</li>
+						<li class="metro">Маяковская</li>
+						<li class="address">Стремянная, 3</li>
+					</ul>
+				</div>
+			</div>
+			<div class="bottom">
+				<p class="copyright">© 2020 CODERED. <span>Все права защищены.</span></p>
+				<a href="#">Created by ITmaestro</a>
+			</div>
+		</div>
+	</footer>
+	<script>
+		var map, popup, Popup;
+
+		/** Initializes the map and the custom popup. */
+		function initMap() {
+		var posCenter = {lat: 55.773425, lng: 37.591};
+		var check = document.getElementById('contacts-map').offsetWidth;
+		if (check < 1200) {
+			posCenter = {lat: 55.773881, lng: 37.59344}
+		}
+		var map = new google.maps.Map(document.getElementById('contacts-map'),
+		 {
+		center: posCenter,
+		zoom: 18,
+		mapTypeControl: false,
+		styles: [
+		  {
+		    "elementType": "geometry",
+		    "stylers": [
+		      {
+		        "color": "#f5f5f5"
+		      }
+		    ]
+		  },
+		  {
+		    "elementType": "geometry.fill",
+		    "stylers": [
+		      {
+		        "visibility": "on"
+		      }
+		    ]
+		  },
+		  {
+		    "elementType": "labels.icon",
+		    "stylers": [
+		      {
+		        "visibility": "off"
+		      }
+		    ]
+		  },
+		  {
+		    "elementType": "labels.text.fill",
+		    "stylers": [
+		      {
+		        "color": "#616161"
+		      }
+		    ]
+		  },
+		  {
+		    "elementType": "labels.text.stroke",
+		    "stylers": [
+		      {
+		        "color": "#f5f5f5"
+		      }
+		    ]
+		  },
+		  {
+		    "featureType": "administrative.land_parcel",
+		    "elementType": "labels.text.fill",
+		    "stylers": [
+		      {
+		        "color": "#bdbdbd"
+		      }
+		    ]
+		  },
+		  {
+		    "featureType": "poi",
+		    "elementType": "geometry",
+		    "stylers": [
+		      {
+		        "color": "#eeeeee"
+		      }
+		    ]
+		  },
+		  {
+		    "featureType": "poi",
+		    "elementType": "labels.text.fill",
+		    "stylers": [
+		      {
+		        "color": "#757575"
+		      }
+		    ]
+		  },
+		  {
+		    "featureType": "poi.park",
+		    "elementType": "geometry",
+		    "stylers": [
+		      {
+		        "color": "#e5e5e5"
+		      }
+		    ]
+		  },
+		  {
+		    "featureType": "poi.park",
+		    "elementType": "labels.text.fill",
+		    "stylers": [
+		      {
+		        "color": "#9e9e9e"
+		      }
+		    ]
+		  },
+		  {
+		    "featureType": "road",
+		    "elementType": "geometry",
+		    "stylers": [
+		      {
+		        "color": "#ffffff"
+		      }
+		    ]
+		  },
+		  {
+		    "featureType": "road.arterial",
+		    "elementType": "labels.text.fill",
+		    "stylers": [
+		      {
+		        "color": "#757575"
+		      }
+		    ]
+		  },
+		  {
+		    "featureType": "road.highway",
+		    "elementType": "geometry",
+		    "stylers": [
+		      {
+		        "color": "#dadada"
+		      }
+		    ]
+		  },
+		  {
+		    "featureType": "road.highway",
+		    "elementType": "labels.text.fill",
+		    "stylers": [
+		      {
+		        "color": "#616161"
+		      }
+		    ]
+		  },
+		  {
+		    "featureType": "road.local",
+		    "elementType": "labels.text.fill",
+		    "stylers": [
+		      {
+		        "color": "#9e9e9e"
+		      }
+		    ]
+		  },
+		  {
+		    "featureType": "transit.line",
+		    "elementType": "geometry",
+		    "stylers": [
+		      {
+		        "color": "#e5e5e5"
+		      }
+		    ]
+		  },
+		  {
+		    "featureType": "transit.station",
+		    "elementType": "geometry",
+		    "stylers": [
+		      {
+		        "color": "#eeeeee"
+		      }
+		    ]
+		  },
+		  {
+		    "featureType": "water",
+		    "elementType": "geometry",
+		    "stylers": [
+		      {
+		        "color": "#c9c9c9"
+		      }
+		    ]
+		  },
+		  {
+		    "featureType": "water",
+		    "elementType": "labels.text.fill",
+		    "stylers": [
+		      {
+		        "color": "#9e9e9e"
+		      }
+		    ]
+		  }
+		]
+		});
+
+		  Popup = createPopupClass();
+		  popup = new Popup(
+		      new google.maps.LatLng(55.773881, 37.59344),
+		      document.getElementById('map-popup'));
+		  popup.setMap(map);
+		}
+
+		/**
+		 * Returns the Popup class.
+		 *
+		 * Unfortunately, the Popup class can only be defined after
+		 * google.maps.OverlayView is defined, when the Maps API is loaded.
+		 * This function should be called by initMap.
+		 */
+		function createPopupClass() {
+		  /**
+		   * A customized popup on the map.
+		   * @param {!google.maps.LatLng} position
+		   * @param {!Element} content The bubble div.
+		   * @constructor
+		   * @extends {google.maps.OverlayView}
+		   */
+		  function Popup(position, content) {
+		    this.position = position;
+
+		    content.classList.add('popup-bubble');
+
+		    // This zero-height div is positioned at the bottom of the bubble.
+		    var bubbleAnchor = document.createElement('div');
+		    bubbleAnchor.classList.add('popup-bubble-anchor');
+		    bubbleAnchor.appendChild(content);
+
+		    // This zero-height div is positioned at the bottom of the tip.
+		    this.containerDiv = document.createElement('div');
+		    this.containerDiv.classList.add('popup-container');
+		    this.containerDiv.appendChild(bubbleAnchor);
+
+		    // Optionally stop clicks, etc., from bubbling up to the map.
+		    google.maps.OverlayView.preventMapHitsAndGesturesFrom(this.containerDiv);
+		  }
+		  // ES5 magic to extend google.maps.OverlayView.
+		  Popup.prototype = Object.create(google.maps.OverlayView.prototype);
+
+		  /** Called when the popup is added to the map. */
+		  Popup.prototype.onAdd = function() {
+		    this.getPanes().floatPane.appendChild(this.containerDiv);
+		  };
+
+		  /** Called when the popup is removed from the map. */
+		  Popup.prototype.onRemove = function() {
+		    if (this.containerDiv.parentElement) {
+		      this.containerDiv.parentElement.removeChild(this.containerDiv);
+		    }
+		  };
+
+		  /** Called each frame when the popup needs to draw itself. */
+		  Popup.prototype.draw = function() {
+		    var divPosition = this.getProjection().fromLatLngToDivPixel(this.position);
+
+		    // Hide the popup when it is far out of view.
+		    var display =
+		        Math.abs(divPosition.x) < 4000 && Math.abs(divPosition.y) < 4000 ?
+		        'block' :
+		        'none';
+
+		    if (display === 'block') {
+		      this.containerDiv.style.left = divPosition.x + 'px';
+		      this.containerDiv.style.top = divPosition.y + 'px';
+		    }
+		    if (this.containerDiv.style.display !== display) {
+		      this.containerDiv.style.display = display;
+		    }
+		  };
+
+		  return Popup;
+		}
+	</script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD57b1klhTcVUYoGhkOf2h1ck2SKmTvNSQ&amp;callback=initMap" async="" defer=""></script>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/jquery.nice-select.min.js"></script>
+	<script src="js/jquery.fancybox.min.js"></script>
+	<script src="js/scripts.js"></script>
+</body>
+</html>

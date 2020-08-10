@@ -1,0 +1,7 @@
+<svg id="Component_11_2" data-name="Component 11 – 2" xmlns="http://www.w3.org/2000/svg" width="67" height="67" viewBox="0 0 67 67">
+  <g id="Ellipse_3" data-name="Ellipse 3" fill="#fff" stroke="#e8e8e8" stroke-width="1.5">
+    <circle cx="33.5" cy="33.5" r="33.5" stroke="none"/>
+    <circle cx="33.5" cy="33.5" r="32.75" fill="none"/>
+  </g>
+  <path id="resize_1_" data-name="resize (1)" d="M20.034,10.689A1.037,1.037,0,0,0,19,11.725v5.806L3.539,2.073H9.345A1.037,1.037,0,0,0,9.345,0H1.037A1.037,1.037,0,0,0,0,1.037V9.345a1.037,1.037,0,0,0,2.073,0V3.539L17.531,19H11.725a1.037,1.037,0,1,0,0,2.073h8.308a1.037,1.037,0,0,0,1.037-1.037V11.725A1.037,1.037,0,0,0,20.034,10.689Z" transform="translate(23.352 22.578)" fill="#222220"/>
+</svg>
